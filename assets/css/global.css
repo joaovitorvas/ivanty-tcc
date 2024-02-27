@@ -137,14 +137,38 @@ a {
     font-style: normal;
     font-weight: 900;
     line-height: normal;
-    margin-top: 1.5rem;
     text-align: right;
 }
 
 .artButton {
+    border: none;
     border-radius: 1.25rem;
     background: rgb(123, 135, 194);
     padding: 1rem;
     cursor: pointer;
     margin-right: 1rem;
+    color: #fff;
+}
+
+.gridContainerArtContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1rem auto;
+}
+
+.gridContainerLikeAndCard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    align-items: center;
+}
+
+.gridContainerArtContainer02 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.artContainerIcons {
+    width: 2.5rem;
+    height: auto;
 }
