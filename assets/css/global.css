@@ -172,3 +172,17 @@ a {
     width: 2.5rem;
     height: auto;
 }
+
+.telasGrandes {
+    display: none;
+}
+  
+  @media screen and (min-width: 760px) {
+    .telasGrandes {
+        display: block;
+    }
+
+    .telasPequenas {
+        display: none;
+    }
+  }
