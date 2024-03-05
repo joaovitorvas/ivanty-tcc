@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="assets/css/menu.css">
     <link rel="stylesheet" href="assets/css/headerPC.css">
     <link rel="stylesheet" href="assets/css/globalPC.css">
+    <link rel="stylesheet" href="assets/css/carrosell.css">
 </head>
 <body>
     <section class="telasPequenas">
@@ -80,9 +81,15 @@
         </section>
         <section class="estiloArtisticosEmDestaque">
           <h2 class="estiloArtisticosEmDestaqueText">Categorias em Destaque: </h2>
-          <div class="carrosell">
-            
-          </div>
+            <nav class="carrossel">
+              <button id="prev-button"><img src="../img/seta-esquerda.png" alt="prev-button"></button>
+              <nav class="imagens-carrossel">
+                  <img src="../img/carrinho-carrinho.png" alt="Slide-1" class="slider on">
+                  <img src="../img/lupa.png" alt="Slide-2" class="slider">
+                  <img src="../img/sol.png" alt="Slide-2" class="slider">
+              </nav>
+              <button id="next-button"><img src="../img/seta-direita.png" alt="next-button"></button>
+          </nav>
         </section>
         <section class="obrasEmDestaque">
           <h2 class="obrasEmDestaqueText">Obras em destaque: </h2>
@@ -111,23 +118,25 @@
 
     <section class="telasGrandes">
       <header class="headerTelasGrandes">
-        <div class="headerGridContainer">
-          <img src="images/Logotipo.svg" alt="" class="logoPC">
-          <a href="profile.html">
-            <p class="menuItemPC">Perfil</p>
-          </a>
-          <a href="profile.html">
-            <p class="menuItemPC">Artista</p>
-          </a>
-          <a href="profile.html">
-            <p class="menuItemPC">Sobre</p>
-          </a>
-          <a href="profile.html">
-            <p class="menuItemPC">Cadastrar-se</p>
-          </a>
-          <input type="text" name="" id="">
-          <img src="images/icons/card.svg" alt="" class="cardPC">
-        </div>
+          <div class="headerGridContainer">
+            <a href="./index.html">
+              <img src="images/Logotipo.svg" alt="" class="logoPC">
+            </a>
+            <a href="profile.html">
+              <p class="menuItemPC">Perfil</p>
+            </a>
+            <a href="artists.html">
+              <p class="menuItemPC">Artista</p>
+            </a>
+            <a href="about.html">
+              <p class="menuItemPC">Sobre</p>
+            </a>
+            <a href="register.html">
+              <p class="menuItemPC">Cadastrar-se</p>
+            </a>
+            <input type="text" name="" id="">
+            <img src="images/icons/card.svg" alt="" class="cardPC">
+          </div>
       </header>
       <main class="mainTelasGrandes">
         <img src="images/banner.png" alt="" class="bannerPC">
@@ -193,7 +202,15 @@
         <section class="categoriasEmDestaquePC">
           <h2 class="categoriasEmDestaqueTextPC">Categorias em Destaque:</h2>
           <section class="artCarrosell">
-
+            <nav class="carrossel">
+              <button id="prev-button"><img src="../img/seta-esquerda.png" alt="prev-button"></button>
+              <nav class="imagens-carrossel">
+                  <img src="../img/carrinho-carrinho.png" alt="Slide-1" class="slider on">
+                  <img src="../img/lupa.png" alt="Slide-2" class="slider">
+                  <img src="../img/sol.png" alt="Slide-2" class="slider">
+              </nav>
+              <button id="next-button"><img src="../img/seta-direita.png" alt="next-button"></button>
+          </nav>
           </section>
         </section>
         <section class="obrasEmDestaquePC">
@@ -256,7 +273,6 @@
                   </div>
                 </div>
                 </div>
-              ☻
           </div>
         </section>
       </main>  
