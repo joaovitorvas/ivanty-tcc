@@ -25,7 +25,7 @@ estilos de la utilidad
 Copiar esto
 =====================================*/
 .perfil-usuario {
-  background: linear-gradient(#3FD0F4, transparent);
+  background: #c1f3ff;
   color: #333;
 }
 .perfil-usuario .sombra {
@@ -267,10 +267,10 @@ Copiar esto
   text-align: center;
   text-decoration: none;
   transition: color 100ms;
-  vertical-align: baseline;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  margin-bottom: 2rem;
 }
 
 .putColor:hover,
