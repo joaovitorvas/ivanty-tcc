@@ -25,8 +25,8 @@ estilos de la utilidad
 Copiar esto
 =====================================*/
 .perfil-usuario {
-  background: #c1f3ff;
-  color: #333;
+  background: rgb(18, 45, 66);
+  color: #fff;
 }
 .perfil-usuario .sombra {
   position: absolute;
