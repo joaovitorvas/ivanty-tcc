@@ -16,7 +16,7 @@ function checkInputs() {
 
   const passwordValue = password.value;
   const passwordConfirmationValue = passwordConfirmation.value;
-  if (usernameValue === "") {
+assets/js/campo.js  if (usernameValue === "") {
     setErrorFor(username, "O nome de usuário é obrigatório.");
   } else {
     setSuccessFor(username);
